@@ -5,9 +5,8 @@ def oxford_comma(array)
     "#{array[0]} and #{array[1]}"
   else
     last_guy = array.pop
-    array.join(", ")
-    array << "and"
-    array.push(last_guy)
+    array.join(", ") + "and" + last_guy
+  
   end
 end
 
@@ -15,3 +14,5 @@ end
 # array.join(", ")
   # elsif array.length == 3
   # "#{array[0]}, #{array[1]}, and #{array[2]}"
+  # array << "and"
+  # array.push(last_guy)
