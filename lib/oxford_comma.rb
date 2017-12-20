@@ -9,10 +9,3 @@ def oxford_comma(array)
 
   end
 end
-
-# array.insert(-2, "and")
-# array.join(", ")
-  # elsif array.length == 3
-  # "#{array[0]}, #{array[1]}, and #{array[2]}"
-  # array << "and"
-  # array.push(last_guy)
